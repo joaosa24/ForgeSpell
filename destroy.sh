@@ -28,7 +28,7 @@ confirm_removal() {
 # Main function to remove the script and Licenses directory
 destroy() {
     script_name=$(basename "$0")  # Get the name of the current script
-    setup_name="setup_project.sh" # Get the name of the current script
+    setup_name="spellforge.sh" # Get the name of the current script
     licenses_dir="Licenses"       # Directory to remove
 
     if confirm_removal; then
